@@ -16,4 +16,9 @@ public static class StringExtension
     {
         return str.ToLowerInvariant();
     }
+    
+    public static string ToMyUpperInvariant(this string str)
+    {
+        return str.ToUpperInvariant();
+    }
 }
