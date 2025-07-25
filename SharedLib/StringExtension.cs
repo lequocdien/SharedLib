@@ -6,4 +6,9 @@ public static class StringExtension
     {
         return str.ToLower();
     }
+
+    public static string ToMyUpper(this string str)
+    {
+        return str.ToUpper();
+    }
 }
